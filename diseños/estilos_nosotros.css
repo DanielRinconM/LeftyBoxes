@@ -26,6 +26,7 @@
     color: rgb(93, 82, 74);
     margin-top: 10px;
     font-size: 14px;
+    cursor: default;
 }
 .descripcionValor{
     width: 90%;
@@ -35,7 +36,8 @@
     color: rgb(93, 82, 74);
     font-size: 15px;
     text-align: center;
-    cursor: auto;
+    cursor: default;
+    
     
 }
 .item2{
@@ -44,5 +46,5 @@
     display:inline-grid;
     margin-left: 130px;
     margin-right: 40px;
-    cursor: pointer;
+    cursor: default;
 }
