@@ -7,7 +7,7 @@
     border-radius: 10px;
     box-shadow: 1px 3px 40px rgba(0,0,0,.2);
     margin-bottom: 40px;
-    transition: all 0.5s;
+    transition: all 0.8s;
 }
 .porducto:hover{
     background-color: rgba(240, 240, 240,.2);
@@ -25,21 +25,19 @@
     
 }
 .imagenProducto{
-    width: 200px;
-    height: 200px;
+    width: 200px;;
+    height: auto;
     margin-left: 90px;
-    border-radius: 5px
 }
 
 .nombreProducto{
-    font-size: 18px;
+    font-size: 15px;
     width: 70%;
     display: inline;
     padding-left: 10px;
     float: left;
     margin-bottom: 0;
-    font-family:"Poppins", Arial, Helvetica, sans-serif;
-    color: rgb(160, 116, 98)
+    font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
     
 }
 .precioProducto{
@@ -66,8 +64,4 @@
     padding-top: 30px;
     
 }
-.imagenProducto:hover{
-    background-image: url(../imagenes/cajas/m1c2.jpg)
-}
-
 

@@ -87,12 +87,23 @@ a{
     padding-top: 20px;
     padding-bottom: 60px;
     padding-bottom: 80px;
-    
 }
 
 #contenido{
     
     width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: rgba(255,255,255,.7);
+    border-radius: 10px;
+    box-shadow: 1px 3px 40px rgba(0,0,0,.5);
+    transition: all 0.8s;
+    margin-bottom: 50px;
+}
+#contenidoPrincipal{
+    width: 52.5%;
     height: auto;
     margin-left: 10%;
     margin-top: 30px;
@@ -126,5 +137,31 @@ p{
 }
 h3{
     cursor: default;
+}
+#titulo{
+    
+    width: 55%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: rgba(255,255,255,.7);
+    border-radius: 10px;
+    box-shadow: 1px 3px 40px rgba(0,0,0,.5);
+    transition: all 0.8s;
+    margin-bottom: 50px;
+}
+#testimonio{
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: #ff7991;
+    
+}
+.testimonio{
+    height: 80px;
+    width: 80px;
+    float: right;
+    box-sizing: border-box;
 }
 
